@@ -5,6 +5,8 @@ import tailwindcss from '@tailwindcss/vite';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  // GitHub Pages-এ সাব-ফোল্ডারের জন্য সঠিক বেস পাথ
+  base: '/BG-Remove-app-/',
   optimizeDeps: {
     exclude: ['@imgly/background-removal']
   },
