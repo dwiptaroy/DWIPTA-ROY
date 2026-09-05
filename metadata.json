@@ -1,0 +1,6 @@
+{
+  "name": "Background Remover",
+  "description": "Instant and high-precision AI background removal tool for photos with transparent cutouts, custom backgrounds, and refinement tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
